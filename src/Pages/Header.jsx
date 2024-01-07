@@ -1,4 +1,4 @@
-import { FaUser } from "react-icons/fa";
+import { FaChevronCircleDown, FaUser } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="max-w-5xl mx-auto">
@@ -16,11 +16,14 @@ const Header = () => {
           </div>
           <div className="dropdown pr-36">
             <div tabIndex={0} role="button" className="btn m-1 w-36">
-              MENU
+              <div className="flex gap-2">
+                <h1>MENU</h1>
+                <FaChevronCircleDown></FaChevronCircleDown>
+              </div>
             </div>
             <ul
               tabIndex={0}
-              className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+              className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 font-semibold"
             >
               <li>
                 <a>Home</a>

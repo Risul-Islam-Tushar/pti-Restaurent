@@ -5,7 +5,7 @@ const Cover = () => {
       <div className="hidden md:flex max-w-5xl mx-auto">
         <div className="w-full h-[380px] mt-28 flex justify-between items-center bg-amber-500 rounded-2xl ">
           <div>
-            <h1 className="text-4xl font-semibold ps-14 pt-28 text-white">
+            <h1 className="text-4xl font-semibold ps-14 text-white">
               Deliver Food To Your
               <br /> Door Stepl
             </h1>

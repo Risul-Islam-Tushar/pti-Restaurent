@@ -7,9 +7,7 @@ const Items = () => {
   const [menu, setMenu] = useState([]);
 
   useEffect(() => {
-    fetch(
-      "http://www.api.technicaltest.quadtheoryltd.com/api/Item?page=1&pageSize=10"
-    )
+    fetch("menu.json")
       .then((res) => res.json())
       .then((data) => setMenu(data.Items));
   }, []);
